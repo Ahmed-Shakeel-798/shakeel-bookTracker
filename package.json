@@ -1,0 +1,22 @@
+{
+  "name": "book-tracking",
+  "version": "1.0.0",
+  "description": "an api for users to keep track of books they've read",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "env-cmd -f ./config/dev.env nodemon index.js"
+
+  },
+  "author": "Ahmed Shakeel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "sequelize-cli": "^6.2.0"
+  }
+}
